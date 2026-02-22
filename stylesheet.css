@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+@font-face {
+    src: url(resources/PixelGame.otf);
+    font-family: pixelgame;
+}
+
+body {
+    background-image: linear-gradient(to bottom,pink, rgb(255, 109, 248));
+    background-attachment: fixed;
+    width: 900px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    color:rgb(255, 34, 237);
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 22pt;
+    margin: 4px;
+}
+
+h2 {
+    color:rgb(221, 8, 203);
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 33pt;
+    margin: 3px;
+}
+
+h1 {
+    font-size: 500%;
+    font-family: "pixelgame", sans-serif;
+    color:rgb(172, 4, 149);
+    text-align: center;
+    white-space: nowrap;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(255, 1, 230)
+}
+
+a:hover {
+    color:rgb(136, 0, 255)
+}
+
+input[type="text"] {
+    border-width: 3px;
+    border-color: rgb(164, 1, 132);
+    background-color: #ffffff;
+    border-style: solid;
+    border-radius: 7px;
+    height: 20px; 
+    width: 500px;
+    color:rgb(149, 3, 127);
+    padding: 10px;
+}
+
+input[type="submit"] {
+    height: 30px; width: 300px;
+    color:rgb(172, 4, 149);
+    background-color: rgb(255, 75, 207);
+    border-color: darkorchid;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.itemBox {
+    display:flex;
+    justify-content: center;
+    height: 20px;
+    width: 130px;
+    padding: 20px;
+    border: 3px solid rgb(252, 102, 227);
+    background-color: rgb(255, 175, 235);
+    text-align: center;
+    justify-content: center;
+    margin:8px 10px;
+    position: relative;
+}
+
+#mainBox {
+    padding:20px;
+    background-color: rgb(255, 158, 218);
+    border-style: solid;
+    border-color: rgb(149, 3, 127);
+    border-radius: 9px;
+    margin-left: 100px;
+    margin-right: 100px;
+    max-width: 700px;
+    min-width: 700px;
+}
+
+
